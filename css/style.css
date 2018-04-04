@@ -1,0 +1,132 @@
+/*  
+@Copyright 2017,wenSoft Inc. Gh.
+@Author , Samuel Wendolin Ketechie
+
+*/
+
+#container{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+
+/* slides area */
+
+		/*wrapper for slides   */
+#wrapper{ 
+	overflow: hidden;
+	width: 80%;
+	height: 350px;
+	position: relative;
+	margin-top: 5px;
+	margin: 0 auto 40px;
+	border-radius:25px;
+	
+	
+}
+
+#wrapper img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+#wrapper .btn{
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	border: none;
+	border-radius: 25px;
+	top: 125px;
+	background: pink;
+	
+	
+}
+#wrapper >#btn2{
+	position: relative;
+	float: right;
+}
+
+#wrapper .btn:hover{
+	box-shadow: 10px 0px 10px 0px pink;
+}
+
+
+/* navigation bar */
+
+#navMenu{
+	margin: 0;
+	padding: 0;
+	padding-left: 50px;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	z-index: 5;
+	position: relative;
+}
+
+#navMenu ul{
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	border-radius:25px;
+}
+
+#navMenu li{
+	margin: 0;
+	padding: 0;
+	background: #999;
+	list-style: none;
+	float: left;
+	position: relative;
+	border-radius:25px;
+	overflow: visible;
+	z-index: 5;
+}
+
+#navMenu ul li a{
+	text-align: center;
+	font-family: "Helvetical";
+	height: 30px;
+	width: 170px;
+	display: block;
+	text-decoration: none;
+	color: #F5B336;
+	text-shadow: 1px 1px #000;
+	border: 1px solid #FFF;
+	border-radius:25px;
+	overflow: visible;
+	z-index: 5;
+}
+
+#navMenu ul ul{
+	position: absolute;
+	visibility: hidden;
+	top: 30px;
+	overflow: visible;
+	z-index: 5;
+}
+
+#navMenu ul li:hover ul{
+	visibility: visible;
+}
+
+#navMenu li:hover{
+	background: #19c336;
+}
+
+#navMenu ul li:hover ul li a:hover{
+	background: #2A52BE;
+	color: ##19c336;
+}
+
+#navMenu a:hover{
+	color: #193036;
+}
+
+.clearFloat{
+	clear: both;
+	margin: 0;
+	padding: 0;
+}

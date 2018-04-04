@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+
+
+#form-log {
+	background:#F9F9F9;
+	padding:25px;
+	margin: 0 auto;
+	width: 500px; 
+	height: 500px;
+	border:1px solid #CCC;
+	border-radius:25%;
+}
+
+#form-log h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+
+
+
+
+#form-log input[type="text"]:hover,
+#form-log input[type="email"]:hover{
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+
+
+#form-log button[type="submit"] {
+	cursor: pointer;
+	border-radius:100%;
+	height: 50px;
+}
+
+#form-log button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#form-log button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
